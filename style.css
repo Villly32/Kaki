@@ -1,0 +1,112 @@
+header {
+   /* background-color: ;url(prod_bg.png); */
+   background-position: center;
+   background-color: rgb(29, 26, 56);
+   background-size: cover;
+   height: 50vh;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} 
+
+header img {
+    width: 100%;
+    
+}
+
+header h1 {
+    color: rgb(172, 19, 172);
+    
+
+}
+
+.slogan{
+    text-align: center;
+   
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 98vw;
+    margin: 5vh auto;
+    border: 0.5px dashed rgb(48, 16, 48);
+    
+}
+
+.box {
+    height: 50vh;
+    
+    text-align: center;
+    width: 30%;
+    margin: 2% auto;
+    
+    
+}
+
+.box{
+    display: inline-block;
+    margin: 2rem;
+    line-height: 6rem;
+    border-radius: 10px;
+    padding: 60px;
+  
+
+}
+
+.cart_img {
+    width: 30%;
+    background-color: orchid;
+}
+
+/*media quries */
+@media (max-width:200px) {
+header {
+    background-image: url(oliver);
+}
+
+}
+
+
+
+
+
+
+.logo {
+    width: 100%;
+
+}
+
+.logo img{
+    width: 60%;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin: 45px 45px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 455px;
+}
+
+
+nav a :hover {
+background-color: cornflowerblue;
+color: white;
+font-weight: 400px;
+}
